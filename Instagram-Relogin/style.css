@@ -1,5 +1,5 @@
-*{
-    padding:0;
+* {
+    padding: 0;
     margin: 0;
     text-decoration: none;
     box-sizing: border-box;
@@ -7,8 +7,8 @@
     font-size: 14pt;
 }
 
-body{ 
-    width:100%;
+body {
+    width: 100%;
     min-height: 100vh;
     background-color: rgb(243, 243, 243);
     margin: 0;
@@ -17,15 +17,15 @@ body{
     justify-content: center;
 }
 
-.instagram-land{
+.instagram-land {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     height: 100vh;
     width: 100%;
 }
 
-.instagram-phone{
+.instagram-phone {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,145 +33,155 @@ body{
     height: 50%;
 }
 
-.instagram-phone img{
+.instagram-phone img {
     position: absolute;
-    left:50px;
+    left: 50px;
     height: 36rem;
-    animation: phone 2s ease-in-out infinite alternate;
+    animation: phone 1.8s ease-in-out infinite alternate;
 }
 
 
-@keyframes phone{
-   
-    100%{
-        transform: translateY(-20px) ;
+@keyframes phone {
+    0% {
+        transform: translateY(5px);
+
+    }
+
+    100% {
+        transform: translateY(-8px);
     }
 }
 
-.login{
+.login {
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    width: 25%;
-    min-height: 36em;
+    width: 360px;
+    min-height: 34rem;
+    margin: 30px;    
+    
 }
 
-.group{
+.group {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
     background-color: #fff;
     width: 100%;
-    padding: 2rem 0;
+    margin: 10px;
+    padding: 1.7rem 0;
     border: 1 solid lightgray;
     border-radius: 20px;
 }
 
-.group:nth-child(1){
+.group:nth-child(1) {
     min-height: 19rem;
     border-radius: 20px;
 
 }
 
-.instagram-logo{
+.instagram-logo {
     height: 3rem;
 }
 
 .profile-photo {
     display: flex;
-    justify-content:center ;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
     border-radius: 50%;
 
 }
 
-.profile-photo img{
+.profile-photo img {
     height: 8rem;
-    width: 160px;
+    width: 8.2rem;
 }
 
-.instagram-login{
+.instagram-login {
     background-color: #0095f6;
     margin-top: 10px;
-    color: #fff; 
+    color: #fff;
     padding: 12px;
     border-radius: 4px;
 }
 
-.rem-login{
+.rem-login {
     background-color: #fff;
-    color:#0095f6;
+    color: #0095f6;
     margin-top: 1rem;
 }
 
-.not-account{
+.not-account {
     color: rgb(160, 160, 160);
 }
 
-.link-blue{
+.link-blue {
     color: #0095f6;
     font-weight: 700;
 }
 
-.get-app{
+.get-app {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 1.3rem 0;
-}
-.get-app p{
-    font-weight: 700;    
+    padding: .6rem 0;
 }
 
-.download{
-display: flex;
-width: 100px;
-justify-content: space-evenly;
-align-items: center;
+.get-app p {
+    font-weight: 700;
+}
+
+.download {
+    margin: auto;
+    display: flex;
+    width: 100px;
+    justify-content: space-evenly;
+    align-items: center;
 
 }
 
-.download img{
+.download img {
     width: 150px;
     margin: 10px auto;
     padding: 10px;
 }
 
-@media (max-width: 1366px){
-    .instagram-land{
+@media (max-width: 1366px) {
+    .instagram-land {
         margin-top: 22px;
         width: 100%;
         height: 100vh;
     }
 
-    .login{
+    .login {
         position: absolute;
         right: 100px;
-        width: 400px;
+        width: 300px;
     }
 
-    .instagram-phone{
+    .instagram-phone {
         position: absolute;
         left: 50px;
     }
 }
 
-@media(max-width: 1024px){
-    .instagram-logo{
+@media(max-width: 1024px) {
+    .instagram-logo {
         width: 70%;
         margin-bottom: 10px;
     }
-    .instagram-land{
+
+    .instagram-land {
         width: 100%;
-        height: 100vh;
+
     }
 
-    .login{
+    .login {
         position: absolute;
         right: 40px;
         top: 50px;
@@ -179,7 +189,7 @@ align-items: center;
 
     }
 
-    .instagram-phone img{
+    .instagram-phone img {
         max-height: 35rem;
         max-width: 32rem;
         position: absolute;
@@ -192,15 +202,15 @@ align-items: center;
         text-align: center;
     }
 
-    .user{
+    .user {
         font-weight: none;
         font-size: 12pt;
 
     }
 }
 
-@media(max-width: 768px){
-    .instagram-land{
+@media(max-width: 768px) {
+    .instagram-land {
         max-width: 90%;
         max-height: 100vh;
         display: flex;
@@ -208,92 +218,95 @@ align-items: center;
         align-items: center;
         margin: 1.1rem auto;
     }
-    .login{
+
+    .login {
         width: 90%;
         margin: 6rem auto;
         min-height: 20rem;
-      
+
     }
 
-    .instagram-phone{
+    .instagram-phone {
         display: none;
     }
 
-    .instagram-phone img{
+    .instagram-phone img {
         width: 250px;
-        height: 250px; 
+        height: 250px;
     }
 
-    .download{
+    .download {
         min-height: 0.1rem;
         min-width: .7rem;
     }
 }
 
-@media (max-width: 425px){
-    body{
+@media (max-width: 425px) {
+    body {
         background-color: #fff;
     }
-    .instagram-land{
-        width: 85%;
-    }
-    .instagram-logo{
+
+    .instagram-logo {
         margin: 20px auto;
-        width:80%;
+        width: 60%;
     }
 
-    .instagram-phone{
-        display: none;    
+    .instagram-phone {
+        display: none;
     }
 
-    .login{
+    .login {
         width: 100%;
         position: absolute;
-        left: 50px;
+        left: 10px;
+        top: -100px;
     }
 
-   .instagram-login{ 
-    margin: 25px auto;
-    width: 75%;
-    text-align: center;
-   }
+    .instagram-login {
+        margin: 25px auto;
+        width: 75%;
+        text-align: center;
+    }
 
-    .group{ 
+    .group {
         border: 1px solid transparent;
     }
 
-    .app-download{
+    .app-download {
         min-height: 0.3;
         min-width: 1rem;
     }
 
 }
 
-@media (max-width: 375px){
-    .instagram-land{
-        width: 100%;
+@media (max-width: 375px) {
+    .instagram-land {
+        width: 50%;
     }
 
-    .instagram-logo{
-        position: absolute;
-        top:  -80px;
-        margin: auto;
+    .instagram-logo {
+        margin: 10px auto;
     }
 
-    .login{
+    .login {
         position: absolute;
         left: 20px;
+        height: 100vh;
 
-    }   
+    }
 
-    .instagram-logo{
+    .instagram-logo {
         width: 80%;
     }
-    .app-download{
+
+    .app-download {
         display: none;
     }
 
-    .not-account, .link-blue, .rem-login, .instagram-login{
+    .not-account,
+    .link-blue,
+    .rem-login,
+    .instagram-login {
         font-size: 11pt;
     }
 }
