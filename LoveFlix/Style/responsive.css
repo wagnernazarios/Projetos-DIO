@@ -1,0 +1,22 @@
+ @media screen and (max-width: 700px) {
+    header .container{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    header .logo{
+        font-size: 36pt;
+        font-family: 'Roboto Flex', sans-serif;
+        font-weight: 900;
+        
+    }
+
+
+    .button{
+        margin-top: 5px;
+        width: 300px;
+
+    }     
+        
+ }
