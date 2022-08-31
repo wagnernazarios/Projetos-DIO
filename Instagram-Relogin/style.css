@@ -249,6 +249,8 @@ align-items: center;
     .login{
         margin: 20px auto;
         width: 100%;
+        position: absolute;
+        left: 50px;
     }
 
    .instagram-login{ 
@@ -268,7 +270,7 @@ align-items: center;
 
 }
 
-@media (max-width: 320px){
+@media (max-width: 375px){
     .instagram-land{
         width: 100%;
     }
@@ -280,8 +282,8 @@ align-items: center;
     }
 
     .login{
-    position: absolute;
-    left: 20px;
+        position: absolute;
+        left: 20px;
 
     }   
 
