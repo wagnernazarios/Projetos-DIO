@@ -239,7 +239,7 @@ align-items: center;
     }
     .instagram-logo{
         margin: 20px auto;
-        width:50%;
+        width:80%;
     }
 
     .instagram-phone{
@@ -247,7 +247,6 @@ align-items: center;
     }
 
     .login{
-        margin: 20px auto;
         width: 100%;
         position: absolute;
         left: 50px;
