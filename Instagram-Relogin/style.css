@@ -209,7 +209,7 @@ align-items: center;
         margin: 1.1rem auto;
     }
     .login{
-        width: 100%;
+        width: 90%;
         margin: 6rem auto;
         min-height: 20rem;
       
@@ -268,7 +268,7 @@ align-items: center;
 
 }
 
-@media (max-width: 425px){
+@media (max-width: 320px){
     .instagram-land{
         width: 100%;
     }
