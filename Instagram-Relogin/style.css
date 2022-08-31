@@ -54,7 +54,7 @@ body{
     justify-content: space-around;
     flex-direction: column;
     width: 25%;
-    min-height: 38rem;
+    min-height: 36em;
 }
 
 .group{
@@ -142,8 +142,9 @@ align-items: center;
     padding: 10px;
 }
 
-@media (max-width: 1440px){
+@media (max-width: 1366px){
     .instagram-land{
+        margin-top: 22px;
         width: 100%;
         height: 100vh;
     }
@@ -275,7 +276,7 @@ align-items: center;
     .instagram-logo{
         position: absolute;
         top:  -80px;
-        margin: none;
+        margin: auto;
     }
 
     .login{
