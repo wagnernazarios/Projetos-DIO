@@ -59,8 +59,8 @@ body {
     flex-direction: column;
     width: 360px;
     min-height: 34rem;
-    margin: 30px;    
-    
+    margin: 30px;
+
 }
 
 .group {
@@ -257,8 +257,13 @@ body {
 
     .login {
         width: 100%;
-        margin: 0 auto;
+        margin: 0;
+        padding: 20px;
+        position: absolute;
+        left: 0px;
     }
+
+
 
     .instagram-login {
         margin: 25px auto;
@@ -283,18 +288,25 @@ body {
     }
 
     .instagram-logo {
-        margin: 10px auto;
+        position: absolute;
+        top:-30px;
     }
 
     .login {
         position: absolute;
-        left: 10px;
+        width: 100%;
+        left: 0px;
         height: 100vh;
 
     }
 
     .instagram-logo {
         width: 80%;
+    }
+    .profile-photo {
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50%;
     }
 
     .app-download {
@@ -307,4 +319,4 @@ body {
     .instagram-login {
         font-size: 11pt;
     }
-}
+    }
