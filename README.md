@@ -11,3 +11,8 @@ Só com filmes romanticos.
 Usei HTML, CSS e um biblioteca de carrorel Jquery.
 
 https://wagnernazarios.github.io/Projetos-DIO/LoveFlix/index.html
+
+## Snake game
+Jogo da cobrinha que fiz com Javascript.
+
+https://wagnernazarios.github.io/Projetos-DIO/Snake-games/index.html
