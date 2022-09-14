@@ -57,7 +57,7 @@ body {
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    width: 360px;
+    width: 30%;
     min-height: 34rem;
     margin: 30px;
 
@@ -151,7 +151,7 @@ body {
     padding: 10px;
 }
 
-@media (max-width: 1366px) {
+@media (min-width: 1025px) and (max-width: 1366px) {
     .instagram-land {
         margin-top: 22px;
         width: 100%;
@@ -161,7 +161,7 @@ body {
     .login {
         position: absolute;
         right: 100px;
-        width: 300px;
+        width: 30%;
     }
 
     .instagram-phone {
