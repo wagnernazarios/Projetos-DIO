@@ -18,3 +18,4 @@ if (xp < 1000) {
 } else if (xp >= 10001) {
   console.log("O Herói de nome: " + nome + " está no nível de Radiante");
 }
+x
